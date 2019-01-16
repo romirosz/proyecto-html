@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+
+}
+
+.section{
+	padding-top: 80px;
+	background-color: black;
+
+}
+
+.section-primary{
+	background-color: orange;
+}
+
+.section p{
+	color: white;
+}
