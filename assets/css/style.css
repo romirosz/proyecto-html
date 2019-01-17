@@ -3,9 +3,10 @@ body {
 
 }
 
+
 .section{
 	padding-top: 80px;
-	background-color: black;
+	background-color: white;
 
 }
 
@@ -18,4 +19,15 @@ body {
 }
 .section p{
 	color: white;
+}
+
+.jumbotron{
+	background-image: url(../images/foto1.jpg);
+	background-size: 100%;
+	
+}
+
+.jumbotron h1{
+	color: black;
+
 }
