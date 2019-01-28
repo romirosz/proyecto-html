@@ -7,9 +7,11 @@ body {
   background-image: url('../images/pattern.png');
 }
 
-.navbar-brand{
-	width: 100px;
-	padding-top: 10px;
+.navbar-brand img{
+	width: 21px;
+	position: relative;
+	bottom: 2px;
+	
 }
 
 .section{
@@ -19,10 +21,14 @@ body {
 }
 
 .section-primary{
-	background-color: orange;
 	text-align: center;
+	background-color: orange;
+	height: 172px;
 }
 
+.section-primary p{
+	color: black;
+}
 .section h1{
 	color: white;
 	font-family: 'Lobster', cursive;
@@ -32,7 +38,7 @@ body {
 }
 
 .jumbotron{
-	background-image: url(../images/foto3.jpg);
+	background-image: url(../images/foto2.jpg);
 	background-size: 100%;
 	height: 360px;
 	background-repeat: no-repeat;
