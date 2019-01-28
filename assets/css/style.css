@@ -111,7 +111,7 @@ label, input{
 }
 
 .jumbotron__beer{
-	background-image: url('../images/foto4.jpg');
+	background-image: url('../images/lata.jpg');
 	background-repeat: no-repeat;
 	font-family: 'Lobster', cursive;
 }
@@ -161,7 +161,7 @@ label, input{
 }
 
 .icon-instagram {
-	background: pink;
+	background: orange;
 }
 
 
