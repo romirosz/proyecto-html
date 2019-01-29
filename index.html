@@ -14,7 +14,7 @@
 <body>
 
 <div class="cover">
-      <div class="navbar navbar-inverse">
+      <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
@@ -23,12 +23,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><span><img src="assets/images/logo.png" class="img-responsive" alt=""></span></a>
-          </div>
+           <dt id="home"> <a class="navbar-brand" href="#"><span><img src="assets/images/logo.png" class="img-responsive" alt=""></span></a>
+          </div></dt>
           <div class="collapse navbar-collapse" id="navbar-ex-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li class="active">
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
                 <a href="#sobre">Sobre nosotros</a>
@@ -57,7 +57,7 @@
     <p>Cotiza tu diseño y reserva la hora para tu próximo tatuaje</p>
     <br>
     <br>
-    <a class="btn btn-lg btn-default">Aquí</a>
+    <a href="#contact "class="btn btn-lg btn-default ">Aquí</a>
 </div>
         
 <!-- contenido  -->
@@ -96,7 +96,7 @@
 
 <!-- team -->
 
-<dt id="team"><div class="section"></dt>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -105,6 +105,7 @@
             </div>
         </div>
         <div class="row">
+          <dt id="team"><div class="section"></dt>
             <div class="col-md-4">
                <img src="assets/images/alee.jpg" alt="" class= "center-block img-circle img-responsive" />
                <h3 class="text-center">Alejandro Tilleria</h3>
@@ -127,12 +128,29 @@
 
 
  <!-- cerveza -->
-<dt id="beer"><div class="section"></dt>
   
   <div class="jumbotron text-center jumbotron__beer">
     <h1>Conoce nuestra cerveza Hot Rod</h1>
     <p>Pronto en diferentes puntos de venta</p>
   </div>
+ 
+ <!-- video cerveza -->
+  <div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <dt id="beer"><div class="section"></dt>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2-k7cKzwq4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- imagen cerveza -->
+<br>
+<br>
   <div class="row">
     <div class="col-md-3"> </div>
       <div class="col-md-6">
@@ -214,11 +232,13 @@
 <div class="section">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/lnqUUmlebzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
+            <div class="col-md-3"></div>
         </div>
     </div>
 </div>
@@ -286,10 +306,10 @@
 </footer>
 
 <div class="social-bar">
-    <a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"></a>
+    <a href="https://www.facebook.com/Hot-Rod-Tattoo-Av-Italia-1963574053874313/" class="icon icon-facebook" target="_blank"></a>
     <a href="https://twitter.com/" class="icon icon-twitter" target="_blank"></a>
     <a href="#" class="icon icon-whatsapp" target="_blank"></a>
-    <a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"></a>
+    <a href="https://www.instagram.com/hotrod_tatuajes/" class="icon icon-instagram" target="_blank"></a>
   </div>
 
 <script src="assets/js/jquery.js"></script>

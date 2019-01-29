@@ -20,6 +20,7 @@ body {
 
 }
 
+
 .section-primary{
 	text-align: center;
 	background-color: orange;
@@ -56,6 +57,7 @@ body {
     color: white;
     margin-bottom: 46px;
     font-family: 'Lobster', cursive;
+    font-size: 30px;
     
 }
 .text-primary{
@@ -110,6 +112,10 @@ label, input{
 	margin-top: 6px;
 }
 
+.container h1{
+	color: white;
+	font-family: 'Lobster', cursive;
+}
 .jumbotron__beer{
 	background-image: url('../images/lata.jpg');
 	background-repeat: no-repeat;
